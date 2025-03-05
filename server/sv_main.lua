@@ -16,21 +16,21 @@ end, 'god')
 --[EVENT HANDLERS]--
 
 -- 15 MIN REMINDER
-AddEventHandler('txadmin:events:scheduledRestart', function(eventData)
+AddEventHandler('txAdmin:events:scheduledRestart', function(eventData)
     if eventData.secondsRemaining == 900 then
         TriggerClientEvent('vl_eas:cl:sendAlertAuto15', -1)
     end
 end)
 
 -- 5 MIN REMINDER
-AddEventHandler('txadmin:events:scheduledRestart', function(eventData)
+AddEventHandler('txAdmin:events:scheduledRestart', function(eventData)
     if eventData.secondsRemaining == 600 then
         TriggerClientEvent('vl_eas:cl:sendAlertAuto5', -1)
     end
 end)
 
 -- 1 MIN REMINDER
-AddEventHandler('txadmin:events:scheduledRestart', function(eventData)
+AddEventHandler('txAdmin:events:scheduledRestart', function(eventData)
     if eventData.secondsRemaining == 60 then
         TriggerClientEvent('vl_eas:cl:sendAlertAuto1', -1)
     end
