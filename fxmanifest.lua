@@ -3,7 +3,7 @@ game 'gta5'
 
 name 'vl_tsunami'
 description 'Emergency Alert System utilizing phone emails / notifications'
-repository ''
+repository 'https://github.com/MriKNG/vl_eas'
 author 'KNG'
 version '1.0'
 
