@@ -24,7 +24,7 @@ end)
 
 -- 5 MIN REMINDER
 AddEventHandler('txAdmin:events:scheduledRestart', function(eventData)
-    if eventData.secondsRemaining == 600 then
+    if eventData.secondsRemaining == 300 then
         TriggerClientEvent('vl_eas:cl:sendAlertAuto5', -1)
     end
 end)
@@ -39,7 +39,7 @@ end)
 
 --[EVENTS]--
 
--- 15 MIN ALERT
+-- TEST ALERT
 RegisterNetEvent('vl_eas:sv:sendAlertTest', function()
     exports["lb-phone"]:EmergencyNotification(source, {
         title = Config.TestSubject,
@@ -48,6 +48,7 @@ RegisterNetEvent('vl_eas:sv:sendAlertTest', function()
     })
 end)
 
+-- CUSTOM ALERT
 RegisterNetEvent('vl_eas:sv:sendAlertCustom', function()
     exports["lb-phone"]:EmergencyNotification(source, {
         title = Config.CustomSubject,
@@ -56,6 +57,7 @@ RegisterNetEvent('vl_eas:sv:sendAlertCustom', function()
     })
 end)
 
+-- 15 MIN ALERT
 RegisterNetEvent('vl_eas:sv:sendAlert15', function()
     exports["lb-phone"]:EmergencyNotification(source, {
         title = Config.Alert15Subject,
