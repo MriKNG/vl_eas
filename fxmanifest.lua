@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-name 'vl_tsunami'
+name 'vl_eas'
 description 'Emergency Alert System utilizing phone emails / notifications'
 repository 'https://github.com/MriKNG/vl_eas'
 author 'KNG'
