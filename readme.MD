@@ -39,9 +39,13 @@ A immersive FiveM resource for triggering alerts when your server is about to re
 ![config](https://i.imgur.com/5LAGpLr.png)
 ### Alerts using [lb-phone](https://lbscripts.com/phone)
 ![15min](https://i.imgur.com/kNrvmHq.png)
+
 ![custom](https://i.imgur.com/52oKaAP.png)
-![custompopup](https://i.imgur.com/YXszsbX.png) 
+
+![custompopup](https://i.imgur.com/YXszsbX.png)
+
 ![test](https://i.imgur.com/CPaVoxT.png)
+
 ![testpopup](https://i.imgur.com/O9K7IAm.png)
 
 ## Instructions
