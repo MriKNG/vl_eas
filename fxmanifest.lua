@@ -4,8 +4,9 @@ game 'gta5'
 name 'vl_eas'
 description 'Emergency Alert System utilizing phone emails / notifications'
 repository 'https://github.com/MriKNG/vl_eas'
+
 author 'KNG'
-version '1.0'
+version '1.0.0'
 
 shared_scripts {
     'shared/*.lua'
@@ -21,7 +22,8 @@ server_scripts {
 
 dependencies {
     'interact-sound', --NEEDED FOR PLAYING ALERT SOUNDS
-    'qb-core',
+    --'qb-core',
+    'qbx_core',
 --    'qb-phone',
 --    'roadphone',
     'lb-phone',
