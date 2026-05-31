@@ -6,7 +6,7 @@ description 'Emergency Alert System utilizing phone emails / notifications'
 repository 'https://github.com/MriKNG/vl_eas'
 
 author 'KNG'
-version '1.0.0'
+version '2.0.0'
 
 shared_scripts {
     'shared/*.lua'
