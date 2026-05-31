@@ -1,0 +1,8 @@
+RegisterNetEvent('MriKNG:versionWarning', function(current, latest, url)
+    print('^1----------------------------------------------------------------------------------')
+    print('^1[RESOURCE UPDATE REQUIRED]^7')
+    print(('^3Current version:^7 %s'):format(current))
+    print(('^2Latest version:^7 %s'):format(latest))
+    print(('^5Download:^7 %s'):format(url))
+    print('^1----------------------------------------------------------------------------------')
+end)
